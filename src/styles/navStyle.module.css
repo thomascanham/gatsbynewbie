@@ -1,12 +1,24 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #2980B9;
+    position: sticky;
+    top: 0;
+
+}
+
 .nav ul {
     list-style: none;
     color: white;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 960px;
+
 }
 
 .nav li {
     display: inline-block;
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
 }
 
 .nav a {
